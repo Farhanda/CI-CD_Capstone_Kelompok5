@@ -103,4 +103,4 @@ Feature: POST - login
   Scenario: POST - as a user i want login with valid email, valid password, and additional valid parameters
     Given user set POST valid endpoint for login
     When user send POST HTTP request for login with additional valid parameters
-    Then user received POST HTTP response code 200 for login with additional valid parameters
+    Then user received POST HTTP response code 200 for login with additional valid parameter

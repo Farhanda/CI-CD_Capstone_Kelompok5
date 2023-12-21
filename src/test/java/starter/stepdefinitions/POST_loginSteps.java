@@ -171,8 +171,8 @@ public class POST_loginSteps {
     }
 
     @When("user send POST HTTP request for login with additional valid parameters")
-    public void userSendPOSTHTTPRequestForLoginWithAdditionalValidParameter() {
-        post_login.sendPOSTHTTPRequestForLoginWithAdditionalValidParameter();
+    public void userSendPOSTHTTPRequestForLoginWithAdditionalValidParameters() {
+        post_login.sendPOSTHTTPRequestForLoginWithAdditionalValidParameters();
     }
 
     @Then("user received POST HTTP response code 200 for login with additional valid parameters")
